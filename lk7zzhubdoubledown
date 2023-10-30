@@ -15,8 +15,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteCalls"):WaitForChild("GameSpecific"):WaitForChild("Tickets"):WaitForChild("CreateRoom"):InvokeServer(unpack(args))
-end
-end
 
 _G.Autosay = true
 
@@ -30,8 +28,6 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-end
-end
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Sponsoparnordvpn/LandHub/main/LandHubV1.txt"))()
 
@@ -54,3 +50,5 @@ ab.TextColor3=Color3.new(0,1,1)ab.TextSize=20;local bb=game:service'VirtualUser'
 game:service'Players'.LocalPlayer.Idled:connect(function()
 bb:CaptureController()bb:ClickButton2(Vector2.new())
 ab.Text="Roblox tried to kick u but i kicked him instead"wait(2)ab.Text="Status : Active"end)
+end
+end
